@@ -1,0 +1,13 @@
+<section class="mat-typography">
+  <div class="form">
+    <mat-card>
+      <mat-card-title>
+        <div style="text-align: center;">
+          Registration Form
+        </div>
+      </mat-card-title>
+      <dynamic-form [fields]="regConfig" (submit)="submit($event)">
+      </dynamic-form>
+    </mat-card>
+  </div>
+</section>
